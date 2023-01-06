@@ -1,4 +1,4 @@
-@media screen and (min-width: 628px) {
+@media screen and (min-width: 924px) {
   .hero {
     &__header {
       &__h1 {
@@ -12,6 +12,31 @@
       max-width: 550px;
     }
   }
+
+  .webDevelopment {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+    &::before {
+      right: 10%;
+      top: 3%;
+      width: 250px;
+      height: 250px;
+    }
+    &__img {
+      order: 1;
+      width: 30%;
+    }
+    &__content {
+      order: 0;
+      width: 30%;
+      &__h2 {
+        font-size: 2.5em;
+      }
+    }
+  }
+
   .mobile_break {
     display: none;
   }
