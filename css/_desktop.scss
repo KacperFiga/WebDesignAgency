@@ -1,0 +1,21 @@
+@media screen and (min-width: 628px) {
+  .hero {
+    &__header {
+      &__h1 {
+        font-size: 5em;
+      }
+      &__paragraph {
+        font-size: 3em;
+      }
+    }
+    &__description {
+      max-width: 550px;
+    }
+  }
+  .mobile_break {
+    display: none;
+  }
+  .desktop_break {
+    display: block;
+  }
+}
