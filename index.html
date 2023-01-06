@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -18,18 +19,45 @@
   <body>
     <section class="hero">
       <header class="hero__header">
-        <p class="hero__header__paragraph">Get the website</p>
-        <h1 class="hero__header__h1">
+        <p
+          class="hero__header__paragraph"
+          data-aos="fade-down"
+          data-aos-duration="1500"
+        >
+          Get the website
+        </p>
+        <h1
+          class="hero__header__h1"
+          data-aos="zoom-in"
+          data-aos-delay="500"
+          data-aos-duration="1500"
+        >
           Of Your <br class="mobile_break" />
           Dreams
         </h1>
       </header>
-      <section class="hero__description">
+      <section
+        class="hero__description"
+        data-aos="fade-right"
+        data-aos-delay="500"
+        data-aos-duration="1500"
+      >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud.
       </section>
-      <a href="/" class="hero__btn">GET STARTED</a>
+      <a
+        href="/"
+        class="hero__btn"
+        data-aos="zoom-in-up"
+        data-aos-delay="500"
+        data-aos-duration="1500"
+        >GET STARTED</a
+      >
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
     </section>
   </body>
 </html>
