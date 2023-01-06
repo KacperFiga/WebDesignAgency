@@ -37,6 +37,23 @@
     }
   }
 
+  .about {
+    &__img {
+      width: 60%;
+      margin-left: 55px;
+    }
+    &__blocks {
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: stretch;
+      gap: 20px;
+      transform: translate(-5%, -35%);
+      &__item {
+        width: 20%;
+      }
+    }
+  }
+
   .mobile_break {
     display: none;
   }

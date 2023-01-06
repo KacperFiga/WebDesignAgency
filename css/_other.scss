@@ -22,6 +22,24 @@
     transform: translateY(0);
   }
 }
+[data-aos="image-anim"] {
+  opacity: 0;
+  transform: scale(0);
+  transition-property: transform, opacity;
+  transform: translateY(-150px);
+  &.aos-animate {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+[data-aos="opacity-anim"] {
+  opacity: 0;
+  transition-property: opacity;
+  &.aos-animate {
+    opacity: 1;
+  }
+}
 
 [data-aos="circle-anim"] {
   &::before {
